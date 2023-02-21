@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0 auto;
+    width: 45%;
+}
+
+p {
+    font-weight: bold;
+}
+
+h1 {
+    line-height: 10px;
+}
+
+.jumbotron {
+    border: 1px solid;
+    outline-style: solid;
+    outline-color: rgb(238, 138, 225);
+    outline-width: thin;
+    width: 600px;
+    padding-left: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.content {
+    border-radius: 5px;
+    border: 1px solid;
+    outline-style: solid;
+    outline-color: rgb(238, 138, 225);
+    outline-width: thin;
+    width: 600px;
+    padding-left: 10px;
+    margin-top: 10px;
+}
+
+.nav-gambar {
+    border-radius: 5px;
+    border: 1px solid;
+    outline-style: solid;
+    outline-color: rgb(238, 138, 225);
+    outline-width: thin;
+    width: 600px;
+    height: 600px;
+    padding: 10px;
+    margin-top: 15px;
+    /* justify-content: center;
+    align-items: center; */
+    display: flex;
+}
+
+.kotak-merah {
+    width: 20px;
+    height: 20px;
+    background: red;
+}
+
+section {
+    border: 1px solid;
+    outline-style: solid;
+    outline-color: rgb(238, 138, 225);
+    outline-width: thin;
+    width: 600px;
+    padding-left: 10px;
+    margin-top: 10px;
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.kotak-kuning {
+    width: 20px;
+    height: 20px;
+    background: rgb(208, 255, 0);
+}
+
+.kotak-hijau {
+    width: 20px;
+    height: 20px;
+    background: rgb(48, 114, 35);
+}
+
+.kotak-biru {
+    width: 20px;
+    height: 20px;
+    background: rgb(0, 38, 255);
+}
